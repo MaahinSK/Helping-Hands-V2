@@ -79,7 +79,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <span className="text-2xl font-bold text-primary-600 dark:text-primary-400 transition-colors duration-300">
+              <span className="text-2xl hover:bg-gray-500 p-2 rounded-lg font-bold text-primary-600 dark:text-primary-400 transition-colors duration-300">
                 Helping Hands
               </span>
             </Link>
@@ -89,7 +89,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-4">
             <Link
               to="/events"
-              className="text-gray-700 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300"
+              className="text-gray-700 dark:text-gray-200 hover:bg-gray-500 dark:hover:text-primary-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300"
             >
               Upcoming Events
             </Link>
