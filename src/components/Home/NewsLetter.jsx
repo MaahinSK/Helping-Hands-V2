@@ -39,7 +39,7 @@ const Newsletter = () => {
             Subscribe to our newsletter and never miss an opportunity to make a difference in your community.
           </p>
 
-          <form onSubmit={handleSubmit} className="max-w-md mx-auto flex gap-4">
+          <form onSubmit={handleSubmit} className="border-2 rounded-lg max-w-md mx-auto flex gap-4">
             <input
               type="email"
               value={email}
