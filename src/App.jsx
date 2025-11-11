@@ -16,7 +16,7 @@ import CreateEvent from './pages/Events/CreateEvent';
 import ManageEvents from './pages/Events/ManageEvents';
 import JoinedEvents from './pages/Events/JoinedEvents';
 import EventDetailsPage from './pages/Events/EventDetailsPage';
-import NotFound from './pages/NotFound'; // Add this import
+import NotFound from './pages/NotFound'; 
 
 // Private Route Component
 const PrivateRoute = ({ children }) => {
