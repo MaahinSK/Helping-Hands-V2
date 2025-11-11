@@ -56,11 +56,9 @@ const ManageEvents = () => {
     }
 
     try {
-      // Note: You'll need to add a delete endpoint in your backend
-      // await eventsService.deleteEvent(eventId);
+    
       toast.info('Delete functionality will be implemented soon');
-      // For now, just show a message
-      // fetchUserEvents(); // Refresh the list
+    
     } catch (error) {
       toast.error('Failed to delete event');
       console.log('Error deleting event:', error);
@@ -100,7 +98,7 @@ const ManageEvents = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+          <h1 className="text-3xl md:text-4xl rounded-lg p-2 hover:bg-gray-500 font-bold text-gray-900 dark:text-white mb-4">
             Manage Your Events
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">

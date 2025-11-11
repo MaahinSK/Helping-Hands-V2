@@ -92,7 +92,7 @@ return (
           
           <Link
             to={`/events/${event._id}`}
-            className="flex items-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-colors"
+            className="flex items-center text-primary-600 dark:text-primary-400 rounded-lg p-2 hover:bg-gray-500 dark:hover:text-primary-300 font-medium text-sm transition-colors"
           >
             View Details
             <FiArrowRight className="ml-1 w-4 h-4" />
