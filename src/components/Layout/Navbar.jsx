@@ -60,7 +60,7 @@ const Navbar = () => {
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-2">
-                <span className="text-2xl font-bold text-primary-600 dark:text-primary-400">
+                <span className="text-2xl mr-1.5 font-bold text-primary-600 dark:text-primary-400">
                   Helping Hands
                 </span>
               </Link>
@@ -79,8 +79,8 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <span className="text-2xl hover:bg-gray-500 p-2 rounded-lg font-bold text-primary-600 dark:text-primary-400 transition-colors duration-300">
-                Helping Hands
+              <span className="text-4xl hover:bg-gray-500 p-2 rounded-lg font-bold text-primary-600 dark:text-primary-400 transition-colors duration-300">
+                Helping <span className='text-yellow-300'>Hands</span> 
               </span>
             </Link>
           </div>

@@ -84,7 +84,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Helping Hands. All rights reserved.
+            © 2025 Helping Hands. All rights reserved Maahin.
           </p>
           <p className="text-gray-400 text-sm flex items-center mt-2 md:mt-0">
             Made with <FiHeart className="mx-1 text-red-500" /> for better communities
