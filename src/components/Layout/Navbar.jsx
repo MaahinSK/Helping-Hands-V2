@@ -60,7 +60,7 @@ const Navbar = () => {
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-2">
-                <span className="text-2xl mr-1.5 font-bold text-primary-600 dark:text-primary-400">
+                <span className="text-2xl font-bold text-primary-600 dark:text-primary-400">
                   Helping Hands
                 </span>
               </Link>
