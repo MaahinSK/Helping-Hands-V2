@@ -25,14 +25,14 @@ const Banner = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 to="/events"
-                className="bg-white text-primary-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2"
+                className="border-2 text-primary-600 hover:bg-gray-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2"
               >
                 <span>Explore Events</span>
                 <FiArrowRight />
               </Link>
               <Link
                 to="/create-event"
-                className="border-2 border-white text-white hover:bg-white hover:text-primary-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center space-x-2"
+                className="border-2 border-white text-white hover:bg-gray-600 hover:text-primary-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center space-x-2"
               >
                 <span>Create Event</span>
                 <FiCalendar />
@@ -49,12 +49,12 @@ const Banner = () => {
           >
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
               <FiUsers className="w-12 h-12 mx-auto mb-3 text-yellow-300" />
-              <div className="text-3xl font-bold">500+</div>
+              <div className="text-3xl font-bold">580+</div>
               <div className="text-primary-200">Volunteers</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
               <FiCalendar className="w-12 h-12 mx-auto mb-3 text-yellow-300" />
-              <div className="text-3xl font-bold">100+</div>
+              <div className="text-3xl font-bold">120+</div>
               <div className="text-primary-200">Events</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
