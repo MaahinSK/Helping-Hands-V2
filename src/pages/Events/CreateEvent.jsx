@@ -59,14 +59,14 @@ const CreateEvent = () => {
         <div className="mb-8">
           <Link
             to="/events"
-            className="inline-flex items-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 mb-4 transition-colors"
+            className="inline-flex p-2 rounded-lg hover:bg-gray-500 items-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 mb-4 transition-colors"
           >
             <FiArrowLeft className="w-4 h-4 mr-2" />
             Back to Events
           </Link>
           
           <div className="text-center">
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            <h1 className="text-3xl  md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
               Create New Event
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
