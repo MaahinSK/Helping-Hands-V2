@@ -39,21 +39,21 @@ const Newsletter = () => {
             Subscribe to our newsletter and never miss an opportunity to make a difference in your community.
           </p>
 
-          <form onSubmit={handleSubmit} className="border-2 rounded-lg max-w-md mx-auto flex gap-4">
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary-300"
-            />
-            <button
-              type="submit"
-              className="bg-yellow-400 text-gray-900 hover:bg-yellow-300 px-6 py-3 rounded-lg font-semibold transition-colors duration-300"
-            >
-              Subscribe
-            </button>
-          </form>
+<form onSubmit={handleSubmit} className="max-w-md mx-auto flex gap-2">
+  <input
+    type="email"
+    value={email}
+    onChange={(e) => setEmail(e.target.value)}
+    placeholder="Enter your email"
+    className="flex-1 px-4 py-3 rounded-lg text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary-300 border border-gray-300"
+  />
+  <button
+    type="submit"
+    className="bg-yellow-400 text-gray-900 hover:bg-yellow-300 px-6 py-3 rounded-lg font-semibold transition-colors duration-300 whitespace-nowrap"
+  >
+    Subscribe
+  </button>
+</form>
           
           <p className="text-sm text-primary-200">
             We respect your privacy. Unsubscribe at any time.
